@@ -1,0 +1,22 @@
+offset: 8 * 0xfb80
+width: 5
+height: 1
+
+depth: 4
+palette: 0x0, 0x0, 0xffff00, 0xdb6d00
+palette: 0x49ff6d, 0x922400, 0xff4949, 0xb624b6
+palette: 0x4949ff, 0x6d6dff, 0xb6b6ff, 0x6d24
+palette: 0xff00, 0xff6dff, 0x9292b6, 0xffffff
+
+block: f(16,0,4)   0 + n ^ 8
+block: f(16,1,4) 256 + n ^ 8
+block: f(16,2,4) 512 + n ^ 8
+block: f(16,3,4) 768 + n ^ 8
+
+blockWidth: 16
+blockHeight: 1
+blockStride: 16
+
+tileWidth: 1
+tileHeight: 16
+tileStride: 1024 - 256

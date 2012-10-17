@@ -1,0 +1,33 @@
+Scenario maps: 0x28000
+each map is 256 bytes
+
+Terrain cost: 0x280
+order is: field, forest, mountain, beach, castle, wall, bridge, impassable, water, dragon statue
+
+Possible ASM patches
+
+----------------------------------------------------------------
+Patched 1bytes @ 0x3a35
+
+61
+
+----------------------------------------------------------------
+Patched 1bytes @ 0x3a6d
+
+61
+
+----------------------------------------------------------------
+Patched 1bytes @ 0x3afd
+
+76
+
+----------------------------------------------------------------
+Patched 1bytes @ 0x3b10
+
+61
+
+----------------------------------------------------------------
+Patched 1bytes @ 0x3b26
+
+61
+
